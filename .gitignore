@@ -1,0 +1,22 @@
+# CDK
+cdk.out/
+.cdk.staging/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node (caso o front use ferramentas de build)
+node_modules/
+
+# Segredos e ambiente local
+.env
+*.pem
+cdk.context.json
+
+# Sistema
+.DS_Store
+Thumbs.db
